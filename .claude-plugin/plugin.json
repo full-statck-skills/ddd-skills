@@ -1,0 +1,30 @@
+{
+  "name": "ddd-skills",
+  "version": "1.0.0",
+  "description": "Domain-Driven Design architecture skills — COLA, microservices, hexagonal, clean, event-driven",
+  "author": {
+    "name": "PartMeAI",
+    "email": "partmeai@gmail.com"
+  },
+  "homepage": "https://github.com/full-statck-skills/ddd-skills",
+  "repository": "https://github.com/full-statck-skills/ddd-skills",
+  "source": "./",
+  "skills": [
+    "./skills/ddd-api-designer",
+    "./skills/ddd-architecture-awesome",
+    "./skills/ddd-architecture-clean",
+    "./skills/ddd-architecture-cola",
+    "./skills/ddd-architecture-doc",
+    "./skills/ddd-architecture-evaluator",
+    "./skills/ddd-architecture-hexagonal",
+    "./skills/ddd-architecture-layered",
+    "./skills/ddd-architecture-onion",
+    "./skills/ddd-architecture-selector",
+    "./skills/ddd-code-reviewer",
+    "./skills/ddd-cqrs-architecture",
+    "./skills/ddd-devops-integration",
+    "./skills/ddd-domain-designer",
+    "./skills/ddd-event-storming",
+    "./skills/ddd-testing-strategist",
+  ]
+}
