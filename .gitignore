@@ -58,8 +58,6 @@ docs/_build
 # vibe coding
 .claude
 openspec
-AGENTS.md
-CLAUDE.md
 
 ##Log
 logs/
