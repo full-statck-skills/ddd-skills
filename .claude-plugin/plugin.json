@@ -1,7 +1,7 @@
 {
   "name": "ddd-skills",
   "version": "1.0.0",
-  "description": "Domain-Driven Design architecture skills — COLA, microservices, hexagonal, clean, event-driven",
+  "description": "Domain-Driven Design architecture skills",
   "author": {
     "name": "PartMeAI",
     "email": "partmeai@gmail.com"
@@ -25,6 +25,6 @@
     "./skills/ddd-devops-integration",
     "./skills/ddd-domain-designer",
     "./skills/ddd-event-storming",
-    "./skills/ddd-testing-strategist",
+    "./skills/ddd-testing-strategist"
   ]
 }
