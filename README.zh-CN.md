@@ -6,42 +6,42 @@
 
 [![GitHub](https://img.shields.io/badge/github-full--statck--skills%2Fddd-skills-green.svg)](https://github.com/full-statck-skills/ddd-skills)
 [![License](https://img.shields.io/badge/license-Apache%202.0-blue.svg)](LICENSE)
-[![Agent Skills](https://img.shields.io/badge/Agent%20Skills-Compatible-purple.svg)](https://agentskills.io)
+[![Agent Skills](https://img.shields.io/badge/Agent%20Skills-兼容-purple.svg)](https://agentskills.io)
 
-English | [简体中文](./README.zh-CN.md)
+[English](./README.md) | 简体中文
 
-[Introduction](#-introduction) ·
-[Install](#-install) ·
-[Skills](#-skills) ·
-[Supported Agents](#-supported-agents) ·
-[Ecosystem](#-ecosystem)
+[简介](#-简介) ·
+[安装](#-安装) ·
+[技能列表](#-技能列表) ·
+[支持的智能体](#-支持的智能体) ·
+[生态](#-生态)
 
 </div>
 
 ---
 
-## 📖 Introduction
+## 📖 简介
 
-**DDD Architecture Skills** is a curated collection of Agent Skills for AI coding agents, part of the [Full Stack Skills](https://github.com/partme-ai/full-stack-skills) ecosystem maintained by [PartMe.AI](https://github.com/partme-ai).
+**DDD 架构技能** 是一组 AI 编码智能体技能，属于 [Full Stack Skills](https://github.com/partme-ai/full-stack-skills) 生态，由 [PartMe.AI](https://github.com/partme-ai) 维护。
 
-This package includes **16 skills**. Each skill is a self-contained `SKILL.md` file that AI agents load on-demand.
+本包包含 **16 个技能**。每个技能是一个独立的 `SKILL.md` 文件，AI 智能体按需加载。
 
-## 📦 Install
+## 📦 安装
 
 ```bash
 npx skills add full-statck-skills/ddd-skills
 ```
 
-Or install specific skills:
+或按需安装特定技能：
 
 ```bash
 npx skills add full-statck-skills/ddd-skills --skill <skill-name>
 ```
 
-## 🎯 Skills (16)
+## 🎯 技能列表 (16)
 
-| Skill | Description |
-|-------|-------------|
+| 技能 | 描述 |
+|------|------|
 | `ddd-api-designer` | API design from domain model — CQRS command/query separation, REST API endpoint design, data object conversion chain ... |
 | `ddd-architecture-awesome` | Provides comprehensive guidance for Domain-Driven Design (DDD) concepts, strategic design, tactical design, and archi... |
 | `ddd-architecture-clean` | Comprehensive guidance for Clean Architecture (整洁架构) — Robert C. Martin's Clean Architecture with Enterprise Business... |
@@ -59,19 +59,19 @@ npx skills add full-statck-skills/ddd-skills --skill <skill-name>
 | `ddd-event-storming` | Event Storming workshop facilitation guide — collaborative domain exploration methodology with 6-step process (chaos ... |
 | `ddd-testing-strategist` | DDD testing strategy — domain model unit testing, aggregate root testing, repository testing with mocks, application ... |
 
-## 🤖 Supported Agents
+## 🤖 支持的智能体
 
-Works with [Claude Code](https://code.claude.com), [Codex](https://developers.openai.com/codex), [Cursor](https://cursor.com), [OpenCode](https://opencode.ai), [Gemini CLI](https://geminicli.com), [GitHub Copilot](https://github.com/features/copilot), [Windsurf](https://codeium.com/windsurf), and [70+ others](https://agentskills.io/clients).
+适用于 [Claude Code](https://code.claude.com)、[Codex](https://developers.openai.com/codex)、[Cursor](https://cursor.com)、[OpenCode](https://opencode.ai)、[Gemini CLI](https://geminicli.com)、[GitHub Copilot](https://github.com/features/copilot)、[Windsurf](https://codeium.com/windsurf) 及 [70+ 其他智能体](https://agentskills.io/clients)。
 
-## 🌐 Ecosystem
+## 🌐 生态
 
-| Resource | Link |
-|----------|------|
+| 资源 | 链接 |
+|------|------|
 | **Full Stack Skills** | [github.com/partme-ai/full-stack-skills](https://github.com/partme-ai/full-stack-skills) |
-| **All Skill Groups** | [github.com/full-statck-skills](https://github.com/full-statck-skills) |
-| **Agent Skills Spec** | [agentskills.io](https://agentskills.io) |
+| **全部技能组** | [github.com/full-statck-skills](https://github.com/full-statck-skills) |
+| **Agent Skills 规范** | [agentskills.io](https://agentskills.io) |
 | **Skills CLI** | [github.com/vercel-labs/skills](https://github.com/vercel-labs/skills) |
 
-## 📄 License
+## 📄 许可证
 
-Apache 2.0 — see [LICENSE](LICENSE).
+Apache 2.0 — 详见 [LICENSE](LICENSE)。
